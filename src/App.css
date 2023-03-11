@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.col .card{
+  border: 2px solid none;
+  box-shadow: 3px 5px 5px 3px rgba(0,0,0,0.5);
+
+}
+.card .card-img-top{
+  width: 200px;
+  height: 200px;
+  margin: 2px auto;
+}
+.bg-dark{
+  background-image: linear-gradient(to right ,#f12711,#f5af19 );
+}
+
+/* Navbar{
+  position: fixed;
+}
+.py-5 .container .row{
+
+ display: flex;
+ flex-wrap: wrap;
+ /* flex-direction: column; */
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +59,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
